@@ -104,17 +104,17 @@ print("Dataset:")
 print(df)
 ```
 ### OUTPUT:
-#### Partial autocorrelation:
+### Partial autocorrelation:
 
 ![image](https://github.com/user-attachments/assets/8db80244-3087-4280-a2d6-08ade657fde9)
 
 
-#### autocorrelation:
+### autocorrelation:
 
 ![image](https://github.com/user-attachments/assets/28efafb5-565a-4a3f-b194-cd36fc103656)
 
 
-#### Prediction vs Test Graph:
+### Prediction vs Test Graph:
 
 ![image](https://github.com/user-attachments/assets/d0191cb2-d84b-4e00-bbaf-6cfcea5b8735)
 
