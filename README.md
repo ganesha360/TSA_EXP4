@@ -1,5 +1,5 @@
-### Developed by : KANISHKAR M
-### Register Number : 212222240044
+### Developed by : GANESH R
+### Register Number : 212222240029
 ### Date :
 
 # Ex.No:04   FIT ARMA MODEL FOR TIME SERIES
@@ -33,6 +33,14 @@ from statsmodels.graphics.tsaplots import plot_pacf, plot_acf
 import sklearn.metrics
 
 # Loading the dataset
+df = pd.read_csv("/content/Amazon.csv")
+
+# Exploring the dataset
+## Displaying the dataframe
+print("Dataset:")
+print(df)
+
+# Loading the dataset
 df = pd.read_csv("/content/waterquality.csv")
 
 # Exploring the dataset
@@ -43,10 +51,10 @@ print(df)
 
 #### Extracting and Plotting the data the temperature data:
 ```py
-X = df['WaterDepth (m)']
-print("\nWaterDepth Data:")
+X = df['Volume']
+print("\Volume Data:")
 print(X)
-print("\nWaterDepth Plot:")
+print("\nVolume Plot:")
 X.plot()
 ```
 #### Replace infinite values with NaN and drop rows with NaNs
@@ -98,16 +106,18 @@ print(df)
 ### OUTPUT:
 #### Partial autocorrelation:
 
-![image](https://github.com/user-attachments/assets/037718cb-8808-4cc1-9a00-47f04bb10d27)
+![image](https://github.com/user-attachments/assets/8db80244-3087-4280-a2d6-08ade657fde9)
 
 
 #### autocorrelation:
 
-![image](https://github.com/user-attachments/assets/9b8d1c35-96d5-467f-bb93-9018589ba407)
+![image](https://github.com/user-attachments/assets/28efafb5-565a-4a3f-b194-cd36fc103656)
+
 
 #### Prediction vs Test Graph:
 
-![image](https://github.com/user-attachments/assets/f3ce3e8c-263c-48cd-81ac-07e69cca20c2)
+![image](https://github.com/user-attachments/assets/d0191cb2-d84b-4e00-bbaf-6cfcea5b8735)
+
 
 ### RESULT:
 Thus, a Python program is created for the ARMA Model successfully.
